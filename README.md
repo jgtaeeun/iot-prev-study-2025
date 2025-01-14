@@ -19,6 +19,13 @@
     - c드라이브 내 루트에 Dev, Source 폴더 만들기
     - 깃허브데스크탑-깃 repositoty와 c\source 경로를 clone
 
+    - 깃허브 사용법법
+        1. 리모트 리포지토리 생성
+        2. 깃허브데스크톱으로 로컬 리포지토리로 클로닝
+        3. 로컬에서 작성 후 커밋 후
+        4. 리모트로 푸시
+        5. 다른 사용자가 리모트에 있는 최신 내용 풀
+
 - 글꼴
     - https://hangeul.naver.com/font 나눔글꼴다운로드
     - 나눔고딕 ttf /D2coding
@@ -98,3 +105,10 @@
 - 탐색기에서 day01폴더 생성
 - py01_first.py 파일 생성
 - ctrl + f5 , python debugger
+
+
+
+## 첫번째 커밋하기
+summary 입력
+commit 버튼
+push 버튼
