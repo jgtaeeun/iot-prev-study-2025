@@ -110,7 +110,9 @@
 
 
 
-## github desktop으로 첫번째 커밋하기
+### github desktop으로 첫번째 커밋하기
 summary 입력
 commit 버튼
 push 버튼
+
+## 2일차
