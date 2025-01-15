@@ -1,4 +1,4 @@
-print('함수')    #내장함수
+# print('함수')    #내장함수
 
 #사용자 정의 함수
 def add(a, b) :
@@ -19,31 +19,31 @@ def divide():
     print('나누기 결과' , result)
 
 
-x = 11
-y = 22
-z = add (x, y)
-print('합의 결과는' , z)
+# x = 11
+# y = 22
+# z = add (x, y)
+# print('합의 결과는' , z)
 
-x = 101
-y = 203
-print ('합의 결과는' , add(x, y))
+# x = 101
+# y = 203
+# print ('합의 결과는' , add(x, y))
 
 
-x = 35
-y = 15
-print('차의 결과는', diff(x, y)) 
+# x = 35
+# y = 15
+# print('차의 결과는', diff(x, y)) 
 
-x = 30
-y = 10
-z = multiple(x, y)    #300     
-multiple(x, y)        #300
-print(z)              #None
+# x = 30
+# y = 10
+# z = multiple(x, y)    #300     
+# multiple(x, y)        #300
+# print(z)              #None
 
-divide()
+# divide()
 
-'''내장함수'''
-print(max(1,3,7,15))
-print(min(1,3,7,15))
-print(abs(-5))
-print(pow(2,10))
-print(2 ** 10)
+# '''내장함수'''
+# print(max(1,3,7,15))
+# print(min(1,3,7,15))
+# print(abs(-5))
+# print(pow(2,10))
+# print(2 ** 10)
