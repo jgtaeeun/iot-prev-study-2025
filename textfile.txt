@@ -1,0 +1,38 @@
+파이썬 문법
+
+1. 함수
+ 
+def 함수명(매개변수):
+    return
+
+2. 클래스
+class 클래스명 :
+    def __init__(self, x) :
+        self.__x = x
+    
+    def __str__(self):
+        return self.x
+
+3. 입력
+  name , phone, email, addr = input('정보입력(이름, 연락처, 이메일, 주소 순): ').split(',')
+
+4. 콘솔 클리어 함수
+def clear_console():
+    command = 'clear'               #리눅스, 유닉스 클리어 명령어
+    if os.name in ('nt', 'dos'):    #운영체제가 윈도우라면
+        command = 'cls'             #윈도우 클리어 명령어
+    os.system(command) 
+
+5. 객체생성
+    address= contact.Contact(name, phone, email, addr)
+    
+6. 리스트 출력 
+ for i in lst_contact:
+        print(i)
+
+7. 리스트에 \n이 있을 경우, indexArray 에러 발생 고려해야함
+
+8.  try :
+        실행문장
+    except EXCEPTION:
+        실행문장
